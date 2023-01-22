@@ -16,4 +16,10 @@ public class W3Schools {
     @FindBy(xpath = "(//table)[1]//th")
     public List<WebElement> basliklar;
 
+    @FindBy(xpath = "(//table)[1]//tbody//td")
+    public List<WebElement> tumHucreler;
+
+
+
+
 }
